@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MVC03.DAL.Data.Configration
 {
-    internal class DepartmentConfigrations : IEntityTypeConfiguration<Department>
+    public class DepartmentConfigrations : IEntityTypeConfiguration<Department>
     {
         public void Configure(EntityTypeBuilder<Department> builder)
         {
