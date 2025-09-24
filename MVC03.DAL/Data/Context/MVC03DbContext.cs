@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MVC03.DAL.Data.Context
 {
-    internal class MVC03DbContext : DbContext
+    public class MVC03DbContext : DbContext
     {
        public MVC03DbContext() : base()
         {
