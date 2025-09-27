@@ -12,7 +12,7 @@ namespace MVC03.BLL.Repositories
     public class DepartmentRepository : IDepartmentRepository
     {
         private readonly MVC03DbContext _context;
-    public DepartmentRepository(MVC03DbContext context)
+        public DepartmentRepository(MVC03DbContext context)
         {
             _context = context;
         }
